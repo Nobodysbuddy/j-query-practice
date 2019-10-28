@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <style>
+  *{
+   margin: 0; padding: 0;
+  }
+
+  .waterbody{
+   width: 100%; height: 100vh;
+   background-image: url('Riplle board Image.jpeg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+  }
+ </style>
+</head>
+<body>
+
+<header class="waterbody">
+ <p> Aryan the great
+  </p>
+</header>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+
+
+<script>
+ $('.waterbody').ripples({
+  waterbody:0.04,
+  resolution:300,
+ });
+
+ console.log("Hello, World!")
+</script>
+
+</body>
+</html>
